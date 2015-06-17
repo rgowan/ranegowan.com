@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 100%;q 
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #f6f6f6;
@@ -42,6 +42,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    font-weight: 300
 }
 
 @media(min-width:767px) {
@@ -414,7 +415,7 @@ p.email a:hover {
     transition: font-size 1s;
 }
 
-/*@media(min-width:400px) {
+@media(max-width:600px) {
 
     div.projects img{
         width: 350px;
@@ -442,4 +443,4 @@ p.email a:hover {
     p.email a {
         font-size: 35px;
     }
-}*/
+}
