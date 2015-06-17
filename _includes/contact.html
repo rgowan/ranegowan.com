@@ -6,13 +6,18 @@
                 <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p>
                 <p class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
-                <ul class="list-inline banner-social-buttons">
+                <div class="social-buttons">
+                    <img src="/img/twitter.png">
+                    <img src="/img/linkedin.png">
+                    <img src="/img/github.png">
+                </div>
+<!--                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
                         <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                     </li>
                     {% endfor %}
-                </ul>
+                </ul> -->
             </div>
         </div>
     </section>

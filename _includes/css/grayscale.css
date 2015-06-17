@@ -394,6 +394,9 @@ span.light {
 
 span.light:hover {
   color: rgba(255,255,255,.6);
+  transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 p.intro-text {
@@ -409,6 +412,21 @@ p.email a:hover {
   font-size: 35px;
   -webkit-transition: font-size 1s; /* Safari */
   transition: font-size 1s;
+}
+
+div.social-buttons img {
+  width: 60px;
+  min-height: 60px;
+  margin: 0 5px;
+  -webkit-filter: grayscale(100%);
+}
+
+
+div.social-buttons img:hover {
+  -webkit-filter: grayscale(0%);
+  transition: -webkit-filter .4s ease-in-out;
+  -moz-transition: -webkit-filter .4s ease-in-out;
+  transition: -webkit-filter .4s ease-in-out;
 }
 
 
