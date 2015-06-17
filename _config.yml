@@ -1,18 +1,26 @@
 # Site settings
-title: Rane's Blog
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Rane Gowan | Web Developer
+email: ranegowan@gmail.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Rane Gowan
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/Rane_Gowan
+  - title: github
+    url: https://github.com/rgowan
+  - title: linkedin
+    url: https://uk.linkedin.com/in/ranegowan
 
 # Build settings
 markdown: kramdown
-
-paginate: 1
-
-exclude: ['README.md']
+permalink: pretty
