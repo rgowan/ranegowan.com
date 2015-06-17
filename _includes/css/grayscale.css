@@ -290,7 +290,9 @@ a:focus {
 
   div.projects img:hover {
     -webkit-filter: grayscale(0%);
-    transition: -webkit-filter .8s ease-in-out;
+    transition: -webkit-filter .4s ease-in-out;
+    -moz-transition: -webkit-filter .4s ease-in-out;
+    transition: -webkit-filter .4s ease-in-out;
 /*    opacity: .4;
 transition: opacity .8s ease-in-out;*/
 }
