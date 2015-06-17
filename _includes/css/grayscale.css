@@ -184,14 +184,14 @@ a:focus {
   }
 
   div.row img {
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
   }
 
   div.row p.about-me {
     text-align: justify;
     letter-spacing: -0.5px;
-    font-size: 18px;
+    font-size: 17px;
 
   }
 
@@ -282,8 +282,8 @@ a:focus {
   }
 
   div.projects img {
-    width: 425px;
-    min-height: 250px;
+    width: 350px;
+    min-height: 200px;
     margin: 10px;
     -webkit-filter: grayscale(100%);
   }
