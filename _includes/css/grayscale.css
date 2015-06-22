@@ -430,8 +430,10 @@ div.social-buttons img:hover {
   transition: -webkit-filter .4s ease-in-out;
 }
 
+
+
 /* Mobile */
-@media (max-width:800px) {
+@media (max-width:600px) {
 
   .intro {
     display: table;
