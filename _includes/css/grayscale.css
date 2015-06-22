@@ -465,4 +465,11 @@ div.social-buttons img:hover {
 
   div.intro-body {
   }
+
+  div.social-buttons img {
+    width: 20px;
+    min-height: 20px;
+    margin: 0 5px;
+    -webkit-filter: grayscale(0%);
+  }
 }
