@@ -148,11 +148,6 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-/*    background: url(/img/raining.gif) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
   }
 
   .intro .intro-body {
@@ -437,6 +432,21 @@ div.social-buttons img:hover {
 
 /* Mobile */
 @media (max-width:600px) {
+
+  .intro {
+    display: table;
+    width: auto;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #f6f6f6;
+    background: url(/img/raining.gif) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
 
   div.projects img{
     width: 100%;
