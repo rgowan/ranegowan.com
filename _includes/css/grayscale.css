@@ -430,17 +430,9 @@ div.social-buttons img:hover {
   transition: -webkit-filter .4s ease-in-out;
 }
 
-/*Ipad*/
-@media (max-width: 800px) {
-  div.projects img{
-    -webkit-filter: grayscale(0%);
-  }
-}
-
-
 
 /* Mobile */
-@media (max-width:600px) {
+@media (max-width:750px) {
 
   .intro {
     display: table;
@@ -458,7 +450,7 @@ div.social-buttons img:hover {
     }
 
   div.projects img{
-    width: 100%;
+    width: 350px;
     min-height: 200px;
     margin: 10px 0;
     -webkit-filter: grayscale(0%);
