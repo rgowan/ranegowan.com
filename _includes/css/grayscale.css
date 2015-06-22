@@ -430,6 +430,16 @@ div.social-buttons img:hover {
   transition: -webkit-filter .4s ease-in-out;
 }
 
+/*Ipad*/
+@media (min-width: 650px max-width: 800px) {
+  div.projects img{
+    width: 300px;
+    min-height: 200px;
+    margin: 10px 0;
+    -webkit-filter: grayscale(0%);
+  }
+}
+
 
 
 /* Mobile */
