@@ -447,6 +447,7 @@ div.social-buttons img:hover {
 
   div.row img {
     width: 150px;
+    -webkit-filter: grayscale(0%);
   }
 
   div.row p.about-me {
@@ -467,8 +468,8 @@ div.social-buttons img:hover {
   }
 
   div.social-buttons img {
-    width: 40px;
-    min-height: 40px;
+    width: 50px;
+    min-height: 50px;
     margin: 0 5px;
     -webkit-filter: grayscale(0%);
   }
