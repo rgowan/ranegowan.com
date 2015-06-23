@@ -432,7 +432,7 @@ div.social-buttons img:hover {
 
 
 /* Mobile */
-@media (max-width:750px) {
+@media (max-width:400px) {
 
   .intro {
     display: table;
