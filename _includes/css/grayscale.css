@@ -430,6 +430,10 @@ div.social-buttons img:hover {
   transition: -webkit-filter .4s ease-in-out;
 }
 
+section#contact {
+  margin-top: 100px;
+}
+
 
 /* Mobile */
 @media (max-width:400px) {
