@@ -181,7 +181,7 @@ a:focus {
   div.row img {
     width: 250px;
     margin-bottom: 20px;
-    -webkit-filter: grayscale(100%);
+/*    -webkit-filter: grayscale(100%);*/
   }
 
   div.row img:hover {
@@ -288,7 +288,7 @@ a:focus {
     width: 350px;
     min-height: 200px;
     margin: 10px;
-    -webkit-filter: grayscale(100%);
+/*    -webkit-filter: grayscale(100%);*/
   }
 
   div.projects img:hover {
@@ -318,7 +318,7 @@ a:focus {
   border: 1px solid {{ site.color.links }};
   color: {{ site.color.links }};
   background-color: transparent;
-  -webkit-filter: grayscale(100%);
+/*  -webkit-filter: grayscale(100%);*/
 }
 
 .btn-default:hover,
@@ -419,7 +419,7 @@ div.social-buttons img {
   width: 60px;
   min-height: 60px;
   margin: 0 5px;
-  -webkit-filter: grayscale(100%);
+/*  -webkit-filter: grayscale(100%);*/
 }
 
 
