@@ -181,7 +181,7 @@ a:focus {
   div.row img {
     width: 250px;
     margin-bottom: 20px;
-/*    -webkit-filter: grayscale(100%);*/
+    -webkit-filter: grayscale(100%);
   }
 
   div.row img:hover {
@@ -195,10 +195,7 @@ a:focus {
     text-align: justify;
     letter-spacing: -0.5px;
     font-size: 17px;
-
   }
-
-
 
   .btn-circle {
     width: 70px;
@@ -288,7 +285,7 @@ a:focus {
     width: 350px;
     min-height: 200px;
     margin: 10px;
-/*    -webkit-filter: grayscale(100%);*/
+    -webkit-filter: grayscale(100%);
   }
 
   div.projects img:hover {
@@ -302,7 +299,6 @@ a:focus {
   .content-section {
     margin-bottom: 100px;
   }
-
 }
 
 .btn {
@@ -318,7 +314,7 @@ a:focus {
   border: 1px solid {{ site.color.links }};
   color: {{ site.color.links }};
   background-color: transparent;
-/*  -webkit-filter: grayscale(100%);*/
+  -webkit-filter: grayscale(100%);
 }
 
 .btn-default:hover,
@@ -419,9 +415,8 @@ div.social-buttons img {
   width: 60px;
   min-height: 60px;
   margin: 0 5px;
-/*  -webkit-filter: grayscale(100%);*/
+  -webkit-filter: grayscale(100%);
 }
-
 
 div.social-buttons img:hover {
   -webkit-filter: grayscale(0%);
