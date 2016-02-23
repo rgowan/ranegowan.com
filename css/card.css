@@ -98,6 +98,7 @@
 
 .back {
   transform: rotateY( 180deg );
+  overflow: scroll;
 }
 
 /*---- BACK ----*/
@@ -107,11 +108,11 @@
 }
 
 .back ul li {
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 .back ul li img {
-  width: 160px;
+  width: 100%;
 }
 
 .back h2 {
