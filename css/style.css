@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+
+  background: url("/images/wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+footer {
+  width: 325px;
+}
+
+footer p{
+  margin: 15px auto;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+footer p span {
+  font-weight: 700;
+}
+
+.container {
+  width: 325px;
+  height: 450px;
+  position: relative;
+  perspective: 800px;
+
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
