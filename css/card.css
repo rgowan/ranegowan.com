@@ -100,12 +100,20 @@
   color: #000;
 }
 
+.front i.nav {
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 22px;
+}
+
+/*---- BACK ----*/
+
 .back {
   transform: rotateY( 180deg );
   overflow: scroll;
 }
-
-/*---- BACK ----*/
 
 .back ul {
   margin: 20px auto;
