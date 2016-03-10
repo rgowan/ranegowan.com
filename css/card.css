@@ -152,3 +152,21 @@
   font-weight: 200;
   margin-left: 5px;
 }
+
+.project .project-bio {
+  margin: 0px 10px;
+}
+
+.project .project-bio p, .project .project-bio i {
+  display: inline-block;
+}
+
+.project .project-bio p {
+  width: 80%;
+  text-align: left;
+  font-size: 10px;
+}
+
+.project .project-bio i {
+  margin-left: 40px;
+}
