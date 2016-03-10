@@ -11,7 +11,6 @@ function initialize() {
 
   $('.love ').on('click', function(e) {
     e.stopPropagation();
-    $(this).removeClass('fa-heart-o');
-    $(this).addClass('fa-heart');
+    $(this).toggleClass('fa-heart-o fa-heart');
   });
 }
