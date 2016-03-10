@@ -140,6 +140,30 @@
   font-size: 32px;
 }
 
+.back .social {
+  padding-bottom: 45px;
+}
+
+.back .social ul {
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.back .social ul li {
+  text-align: left;
+}
+
+.back .social ul li i {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.back .social ul li label {
+  font-size: 12px;
+  font-weight: 200;
+  vertical-align: middle;
+}
+
 
 
 
@@ -187,7 +211,7 @@
 
 .project .project-bio p {
   width: 85%;
-  float: left;
+  /*float: left;*/
   font-weight: 400;
   text-align: left;
   font-size: 13px;
@@ -199,6 +223,16 @@
   float: right;
 }
 
+.project .project-bio p.score {
+  font-weight: 600;
+  float: left;
+  margin-bottom: 10px;
+}
+
 .fa-heart {
   color: #AA3939;
+}
+
+i {
+  outline: none;
 }
