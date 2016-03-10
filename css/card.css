@@ -40,7 +40,14 @@
   transform: rotateY( 180deg );
 }
 
-/*---- FRONT ----*/
+
+
+
+
+
+/*===============================*/
+            /*FRONT*/
+/*===============================*/
 
 .front img {
   margin-top: 65px;
@@ -100,15 +107,13 @@
   color: #000;
 }
 
-.front i.nav {
-  cursor: pointer;
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  font-size: 22px;
-}
 
-/*---- BACK ----*/
+
+
+
+/*===============================*/
+            /*BACK*/
+/*===============================*/
 
 .back {
   transform: rotateY( 180deg );
@@ -135,7 +140,14 @@
   font-size: 32px;
 }
 
-/*---- PROJECT ----*/
+
+
+
+
+
+/*===============================*/
+          /*PROJECTS*/
+/*===============================*/
 
 .project {
   margin-bottom: 95px;
