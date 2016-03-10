@@ -52,7 +52,8 @@ footer p{
   margin: 15px auto;
   color: #fff;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 900;
+  text-shadow: 2px 2px 10px rgba(150, 150, 150, 1);
 }
 
 .container {

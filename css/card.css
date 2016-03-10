@@ -23,7 +23,11 @@
   height: 100%;
 
   border-radius: 2px;
-  box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
+
+  -webkit-box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
+     -moz-box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
+          box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
+
   background: #fff;
 
   -webkit-backface-visibility: hidden;
@@ -126,7 +130,7 @@
 /*---- PROJECT ----*/
 
 .project {
-  margin-bottom: 75px;
+  margin-bottom: 80px;
 }
 
 .project h4 {
@@ -161,20 +165,17 @@
   margin: 5px 10px;
 }
 
-.project .project-bio p, .project .project-bio i {
-  /*display: inline-block;*/
-}
-
 .project .project-bio p {
   width: 85%;
   float: left;
   font-weight: 400;
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .project .project-bio i {
-  font-size: 18px;
+  cursor: pointer;
+  font-size: 20px;
   float: right;
 }
 
