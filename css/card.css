@@ -84,7 +84,7 @@
   margin: 15px 5px;
   font-size: 30px;
   padding: 15px;
-  color: #ccc;
+  color: #c8cccf;
   opacity: .7;
 
   -webkit-transition: opacity 1s, color 1s;
@@ -104,7 +104,7 @@
 
 .front a:hover {
   opacity: 1;
-  color: #000;
+  color: #333;
 }
 
 
@@ -137,33 +137,8 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 35px;
 }
-
-.back .social {
-  padding-bottom: 45px;
-}
-
-.back .social ul {
-  margin: 0 auto;
-  padding-left: 50px;
-}
-
-.back .social ul li {
-  text-align: left;
-}
-
-.back .social ul li i {
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-.back .social ul li label {
-  font-size: 12px;
-  font-weight: 200;
-  vertical-align: middle;
-}
-
 
 
 
