@@ -1,0 +1,59 @@
+.project {
+  margin-bottom: 50px;
+}
+
+.project h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.project h5 {
+  display: inline-block;
+}
+
+.project .project-info {
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.project .project-info li {
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.project .project-info li label {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.project .project-bio {
+  margin: 5px 10px;
+}
+
+.project .project-bio p {
+  width: 85%;
+  /*float: left;*/
+  font-weight: 400;
+  text-align: left;
+  font-size: 13px;
+}
+
+.project .project-bio i {
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+}
+
+.project .project-bio p.score {
+  font-weight: 600;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.fa-heart {
+  color: #AA3939;
+}

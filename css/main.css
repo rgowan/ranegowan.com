@@ -36,6 +36,10 @@ a {
   color: #333;
 }
 
+i {
+  outline: none;
+}
+
 hr {
   width: 280px;
   border: 0;
