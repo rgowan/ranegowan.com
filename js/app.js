@@ -10,16 +10,14 @@ function initialize() {
   });
 
   $('.project').each(function(){
-    var counter = 0;
+    var counter = $(this).find('span').html();
 
     $(this).find('.love').on('click', function() {
-      $love = $(this);
-      $love.toggleClass('fa-heart-o fa-heart');
+      $(this).toggleClass('fa-heart-o fa-heart');
 
-      if ($love.hasClass('fa-heart')) {
+      if ($(this).hasClass('fa-heart')) {
         counter ++;
-
-        $love.parent().find('span').text(counter);
+        $(this).parent().find('span').text(counter);
       }
     });
   });
