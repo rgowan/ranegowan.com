@@ -5,7 +5,7 @@ function initialize() {
     $(this).toggleClass('flipped');
   });
 
-  $('a, label, .love').on('click', function(e) {
+  $('a, label, .like').on('click', function(e) {
       e.stopPropagation();
   });
 
@@ -16,7 +16,7 @@ function likeProject() {
   $('.project').each(function(){
     var counter = $(this).find('span').html();
 
-    $(this).find('.love').one('click', function() {
+    $(this).find('.like').one('click', function() {
 
       $(this).toggleClass('fa-heart-o fa-heart');
 
