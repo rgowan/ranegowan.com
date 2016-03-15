@@ -9,6 +9,10 @@ function initialize() {
       e.stopPropagation();
   });
 
+  likeProject();
+}
+
+function likeProject() {
   $('.project').each(function(){
     var counter = $(this).find('span').html();
 

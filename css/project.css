@@ -36,7 +36,6 @@
 
 .project .project-bio p {
   width: 85%;
-  /*float: left;*/
   font-weight: 400;
   text-align: left;
   font-size: 13px;
@@ -44,7 +43,7 @@
 
 .project .project-bio i {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 22px;
   float: right;
 }
 
