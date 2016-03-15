@@ -12,18 +12,18 @@
   display: inline-block;
 }
 
-.project .project-info {
+.project ul {
   margin: 0 auto;
   margin-left: 10px;
 }
 
-.project .project-info li {
+.project ul li {
   display: inline-block;
   text-align: left;
   float: left;
 }
 
-.project .project-info li label {
+.project ul li label {
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 200;
@@ -47,7 +47,7 @@
   float: right;
 }
 
-.project .project-bio p.score {
+.project .project-bio p:first-child {
   font-weight: 600;
   float: left;
   margin-bottom: 10px;
