@@ -9,7 +9,7 @@ function clickEvents() {
   $('#card').on('click', function() {
     $(this).toggleClass('flipped');
   });
-  
+
   $('a, label, .like').on('click', function(e) {
       e.stopPropagation();
   });

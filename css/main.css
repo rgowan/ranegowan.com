@@ -10,16 +10,12 @@ body {
   text-align: center;
   overflow: hidden;
 
-  background: url("/images/wallpaper.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   color: #333;
+
+  background: #5691c8;
 }
 
 main {
@@ -53,7 +49,7 @@ footer {
 
 footer p{
   margin: 15px auto;
-  
+
   color: #fff;
   font-size: 12px;
   font-weight: 900;
