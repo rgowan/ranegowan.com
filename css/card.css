@@ -24,10 +24,10 @@
 
   border-radius: 2px;
 
-  -webkit-box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
-     -moz-box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
-        -o-box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
-          box-shadow: 11px 10px 80px -20px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -5px 5px 80px -20px rgba(0,0,0,0.75);
+     -moz-box-shadow: -5px 5px 80px -20px rgba(0,0,0,0.75);
+       -o-box-shadow: -5px 5px 80px -20px rgba(0,0,0,0.75);
+          box-shadow: -5px 5px 80px -20px rgba(0,0,0,0.75);
 
   background: #fff;
 

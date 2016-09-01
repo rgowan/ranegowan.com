@@ -5,7 +5,7 @@
 }
 
 .front h1 {
-  margin-top: 90px;
+  margin-top: 85px;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 60px;
@@ -20,12 +20,14 @@
 }
 
 .front h3 {
+  margin-top: -15px;
   font-size: 20px;
   letter-spacing: -1px;
   font-weight: 200;
 }
 
 .front hr {
+  margin-top: 15px;
   width: 280px;
   border: 0;
   height: 1px;
@@ -33,10 +35,23 @@
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+i.icon {
+  position: relative;
+  top: -20px;
+  font-size: 25px;
+  padding: 0px 9px;
+  background: #fff;
+
+  -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+       -o-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
 .front a {
   text-decoration: none;
   display: inline-block;
-  margin: 15px 5px;
+  margin: 10px 5px;
   font-size: 30px;
   padding: 15px;
   color: #c8cccf;
@@ -77,3 +92,17 @@
 .front .buttons button:hover {
   text-decoration: underline;
 }
+
+.front hr.style15 {
+	text-align: center;
+}
+/*.front hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #fff;
+	color: #8c8b8b;
+	font-size: 18px;
+}*/

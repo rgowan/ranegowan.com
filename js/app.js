@@ -25,6 +25,10 @@ function clickEvents() {
     $('#card').on('click', function() {
       $(this).toggleClass('flipped');
       $('#card').off('click');
+
+      setTimeout(function(){
+        $('.back').empty();
+      }, 500);
     });
   });
 
@@ -110,6 +114,10 @@ function clickEvents() {
     $('#card').on('click', function() {
       $(this).toggleClass('flipped');
       $('#card').off('click');
+
+      setTimeout(function(){
+        $('.back').empty();
+      }, 500);
     });
   });
 
