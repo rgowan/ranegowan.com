@@ -77,6 +77,7 @@ i.icon {
 }
 
 .front .buttons button {
+  display: inline-block;
   cursor: pointer;;
   background: none;
   border: none;
