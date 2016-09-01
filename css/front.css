@@ -81,12 +81,13 @@ i.icon {
   cursor: pointer;;
   background: none;
   border: none;
-  margin: 0px 10px;
+  margin: 0px 8px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
   outline: none;
+  letter-spacing: 1.5px;
 }
 
 .front .buttons button:hover {

@@ -19,7 +19,7 @@ body {
 
   /*background: #005C97;*/
 
-  background: url(https://pdkobarid.files.wordpress.com/2014/07/mountains12.jpg) no-repeat center center;
+  background: url(../images/wallpaper3.jpg) no-repeat center center;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -86,5 +86,5 @@ footer p{
   z-index: 1;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.35);
 }

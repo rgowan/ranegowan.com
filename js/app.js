@@ -12,6 +12,7 @@ function clickEvents() {
   $('#about').on('click', function() {
     $('.back').html("<div class='about'>" +
                       "<img src='../images/avatar.jpg'>" +
+                      "<hr class='avatar'>" +
                       "<h2>About Me</h2>" +
                       "<hr>" +
                       "<p>" +
