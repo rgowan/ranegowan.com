@@ -84,7 +84,7 @@ i.icon {
   margin: 0px 10px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   outline: none;
 }
@@ -92,17 +92,3 @@ i.icon {
 .front .buttons button:hover {
   text-decoration: underline;
 }
-
-.front hr.style15 {
-	text-align: center;
-}
-/*.front hr.style15:after {
-	content: '\002665';
-	display: inline-block;
-	position: relative;
-	top: -15px;
-	padding: 0 10px;
-	background: #fff;
-	color: #8c8b8b;
-	font-size: 18px;
-}*/
