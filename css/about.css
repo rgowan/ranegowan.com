@@ -17,7 +17,6 @@
   width: 150px;
   height: 1px;
   background: #ccc;
-  background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
 }
 
 .about .avatar.v {
@@ -33,5 +32,5 @@
   margin: 10px auto;
   text-align: left;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
 }

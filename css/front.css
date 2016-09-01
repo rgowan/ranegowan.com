@@ -22,7 +22,6 @@
 .front h3 {
   margin-top: -15px;
   font-size: 20px;
-  letter-spacing: -1px;
   font-weight: 200;
 }
 
@@ -54,7 +53,7 @@ i.icon {
   margin: 10px 5px;
   font-size: 30px;
   padding: 15px;
-  color: #c8cccf;
+  color: #ccc;
   opacity: .7;
 
   -webkit-transition: opacity 1s, color 1s;
