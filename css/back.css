@@ -1,6 +1,7 @@
 .back {
   transform: rotateY( 180deg );
   overflow: scroll;
+  cursor: pointer;
 }
 
 .back ul {
