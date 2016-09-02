@@ -11,13 +11,18 @@ function clickEvents() {
 
   $('#about').on('click', function() {
     $('.back').html("<div class='about'>" +
-                      "<img src='../images/avatar.jpg'>" +
+                      "<img class='avatar' src='../images/avatar.jpg'>" +
                       "<hr class='avatar'>" +
                       "<h2>About Me</h2>" +
                       "<hr>" +
                       "<p>" +
-                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus placeat mollitia repellat asperiores voluptate vitae, officia doloribus sapiente earum excepturi cumque voluptates adipisci, cum consectetur, voluptatem laborum possimus recusandae nostrum!" +
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus placeat mollitia repellat asperiores voluptate vitae, officia doloribus sapiente earum excepturi cumque voluptates adipisci, cum consectetur, voluptatem laborum possimus recusandae nostrum!" +
                       "</p>" +
+                    "</div>" +
+                    "<div class='experience'>" +
+                      "<h2>Experience</h2>" +
+                      "<hr>" +
+                      "<img src='http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png'>" +
                     "</div>"
     );
 
