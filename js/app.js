@@ -16,7 +16,7 @@ function clickEvents() {
                       "<h2>About Me</h2>" +
                       "<hr>" +
                       "<p>" +
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus placeat mollitia repellat asperiores voluptate vitae, officia doloribus sapiente earum excepturi cumque voluptates adipisci, cum consectetur, voluptatem laborum possimus recusandae nostrum!" +
+                        "I am a Web Developer based in London with a mild obsession with football. I have also delved into teaching at General Assembly, the place where I took their Web Development Immersive course sometime last year." +
                       "</p>" +
                     "</div>" +
                     "<div class='experience'>" +
