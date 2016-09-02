@@ -16,7 +16,7 @@ function clickEvents() {
                       "<h2>About Me</h2>" +
                       "<hr>" +
                       "<p>" +
-                        "I am a Web Developer based in London with 1 years experiance in the industry. Currently, I am an instructor at General Assembly teaching their Web Development Immersive course." +
+                        "I am a Web Developer based in London with 1 years experiance in the industry. Currently, I am an instructor at General Assembly teaching the Web Development Immersive course." +
                       "</p>" +
                     "</div>" +
                     "<div class='experience'>" +
