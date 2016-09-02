@@ -34,7 +34,7 @@ function clickEvents() {
 
       setTimeout(function(){
         $('.back').empty();
-      }, 500);
+      }, 300);
     });
   });
 
