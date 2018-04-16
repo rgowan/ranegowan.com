@@ -1,36 +1,219 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>Rane</title>
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rane Gowan • Web Developer & Instructor</title>
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/rain.js" charset="utf-8"></script>
-  <script src="js/client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="js/rain.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <canvas id="canvas"></canvas>
-  <section class="centered">
-    <h1>Rane Gowan</h1>
-    <h2>Web Developer &amp; Instructor</h2>
-    <hr>
-    <i class="icon fa fa-umbrella" aria-hidden="true"></i>
-    <div class="links">
-        <a href="https://github.com/rgowan" target="_blank">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <span>Github</span>
-        </a>
-        <a href="https://www.instagram.com/ranegowan/" target="_blank">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-          <span>Instagram</span>
-        </a>
-        <a href="https://www.linkedin.com/in/ranegowan/" target="_blank">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <span>Linkedin</span>
-        </a>
+  <div class="shader"></div>
+  <div class="side-menu">
+    <ul>
+      <li>Portfolio</li>
+      <li>Skills</li>
+      <li>Experience</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <nav>
+    <ul>
+      <li><i class="fa fa-bars burger"></i></li>
+      <li>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        <i class="fa fa-instagram"></i>
+      </li>
+    </ul>
+  </nav>
+  <section class="landing">
+    <div>
+      <i class="fa fa-umbrella"></i>
+      <h1>Rane Gowan</h1>
+      <h3>Full-Stack Web Developer & Instructor</h3>
+    </div>
+    <i class="fa fa-sort-down"></i>
+  </section>
+  <section class="skills">
+    <h2>Primary Skills</h2>
+    <div>
+      <i class="devicon-angularjs-plain-wordmark colored"></i>
+      <i class="devicon-atom-original-wordmark colored"></i>
+      <i class="devicon-babel-plain colored"></i>
+      <i class="devicon-bower-plain-wordmark colored"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-express-original-wordmark colored"></i>
+      <i class="devicon-git-plain-wordmark colored"></i>
+      <i class="devicon-github-plain-wordmark colored"></i>
+      <i class="devicon-gulp-plain colored"></i>
+      <i class="devicon-heroku-line-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark colored"></i>
+      <i class="devicon-jquery-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-mongodb-plain-wordmark colored"></i>
+      <i class="devicon-mocha-plain colored"></i>
+      <i class="devicon-nodejs-plain-wordmark colored"></i>
+      <i class="devicon-postgresql-plain-wordmark colored"></i>
+      <i class="devicon-rails-plain-wordmark colored"></i>
+      <i class="devicon-react-original-wordmark colored"></i>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <i class="devicon-slack-plain-wordmark colored"></i>
+      <i class="devicon-trello-plain-wordmark colored"></i>
+      <i class="devicon-webpack-plain-wordmark colored"></i>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <h4 class="hidden">Professional</h4>
+      <div class="tile left hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38682496-1fa5ee52-3e63-11e8-95cb-f225fa4f8507.png" alt="">
+        <article>
+          <h3>Brother Barber</h3>
+          <p class="banner">
+            <span>HTML5</span>
+            <span>Sass</span>
+            <span>Gulp</span>
+            <span>Google Maps</span>
+            <span>Resurva</span>
+          </p>
+          <p class="links">
+            <a href="http://www.brotherbarber.co.uk/">View Website</a>
+          </p>
+          <p class="summary">A portfolio site for a freelance barber where potential clients can read a short bio, view top instagram posts, see contact infomation and book appointments.</p>
+        </article>
+      </div>
+      <hr>
+      <h4 class="hidden">Personal</h4>
+
+      <div class="tile right hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38681565-e432f3a8-3e60-11e8-99e2-9de1c56852d2.png" alt="">
+        <article>
+          <h3>Poliglot</h3>
+          <p class="banner">
+            <span>React</span>
+            <span>Node</span>
+            <span>Express</span>
+            <span>Mongodb</span>
+            <span>Mongoose</span>
+            <span>Mocha</span>
+            <span>Chai</span>
+            <span>Sockets</span>
+            <span>Webpack</span>
+          </p>
+          <p class="links">
+            <a href="https://github.com/rgowan/poliglot">View Github</a>
+            <a href="https://poliglot-app.herokuapp.com/">View Website</a>
+          </p>
+          <p class="summary">Poliglot uses the Google Translate API to enable users to message eachther in different languages.</p>
+        </article>
+      </div>
+
+      <div class="tile left hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38681852-a0ea76b0-3e61-11e8-82aa-c33b7f4215d6.png" alt="">
+        <article>
+          <h3>Foodie</h3>
+          <p class="banner">
+            <span>React</span>
+            <span>Redux</span>
+            <span>Node</span>
+            <span>Express</span>
+            <span>Mongodb</span>
+            <span>Mongoose</span>
+            <span>Webpack</span>
+          </p>
+          <p class="links">
+            <a href="https://github.com/rgowan/foodie">View Github</a>
+            <a href="https://dry-castle-78282.herokuapp.com/">View Website</a>
+          </p>
+          <p class="summary">Foodie is a basic app which allows users to post pictures of their favourite foods.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quotes">
+    <h2>Famous Quotes</h2>
+    <div class="quote-carousel">
+      <div class="quote">
+        <div>
+          <p><span>"</span>Rane is one of the best teachers and mentors that I have had the pleasure of learning from. He has the ability to teach complex technical solutions and techniques in a non-technical way which is a skill that I don't believe even some of the professors at University possessed. Rane is a natural- his aptitude for teaching and coding are unrivalled and I wouldn't hesitate to recommend Rane! I sincerely hope to work with Rane again in the future. I can imagine Rane being a very successful CTO one day (watch this space)<span>"</span></p>
+          <div class="author">
+            <img src="https://pbs.twimg.com/profile_images/935299516936392704/RY64LSqe_400x400.jpg" alt="">
+            <a href="">Rupesh Bhatti</a>
+            <span>Web Developer at ITV</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p><span>"</span>Rane was part of the lead teaching team during my time at General Assembly. He is a highly talented, creative Web Developer with an exceptional eye and taste-level. He took great care throughout the course to adapt his teaching style to each individual person and devoted huge amounts of time to ensuring we were comfortable with the content. His consistently positive approach and ability to understand people's personal goals makes him a highly emotionally-intelligent mentor as well as an inspirational teacher.<span>"</span></p>
+        <div class="author">
+          <img src="https://i.pinimg.com/280x280_RS/15/82/18/1582184b1838d669e8e701c0bfae5f68.jpg" alt="">
+          <a href="">Laura Tombs</a>
+          <span>Associate Web Developer at ASOS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <h4 class="hidden">Professional</h4>
+      <div class="tile left hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38781294-75312bce-40da-11e8-8c75-721efcbb0120.png" alt="">
+        <article>
+          <h3>Web Development Immersive Lead Instructor</h3>
+          <p class="banner">
+            <span>General Assemblty</span>
+          </p>
+          <p class="summary">Foodie is a basic app which allows users to post pictures of their favourite foods.</p>
+        </article>
+      </div>
+      <div class="tile right hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38781294-75312bce-40da-11e8-8c75-721efcbb0120.png" alt="">
+        <article>
+          <h3>Web Development Immersive Co Instructor</h3>
+          <p class="banner">
+            <span>General Assemblty</span>
+          </p>
+          <p class="summary">Foodie is a basic app which allows users to post pictures of their favourite foods.</p>
+        </article>
+      </div>
+      <div class="tile left hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38781294-75312bce-40da-11e8-8c75-721efcbb0120.png" alt="">
+        <article>
+          <h3>Web Development Immersive Teaching Assistant</h3>
+          <p class="banner">
+            <span>General Assemblty</span>
+          </p>
+          <p class="summary">Foodie is a basic app which allows users to post pictures of their favourite foods.</p>
+        </article>
+      </div>
+      <hr>
+      <h4 class="hidden">Education</h4>
+      <div class="tile right hidden">
+        <img src="https://user-images.githubusercontent.com/11501555/38781294-75312bce-40da-11e8-8c75-721efcbb0120.png" alt="">
+        <article>
+          <h3>Web Development Immersive Student</h3>
+          <p class="banner">
+            <span>General Assemblty</span>
+          </p>
+          <p class="summary">Foodie is a basic app which allows users to post pictures of their favourite foods.</p>
+        </article>
+      </div>
     </div>
   </section>
 </body>
