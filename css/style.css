@@ -280,7 +280,10 @@ nav ul li:first-child {
 }
 
 /* ---- PORTFOLIO ---- */
-.portfolio { background: #f4f8fb; }
+.portfolio { 
+  background: #f4f8fb;
+  min-height: 600px; 
+}
 .portfolio h4 { text-align: left; }
 
 /* ---- TILE ---- */
@@ -435,6 +438,7 @@ nav ul li:first-child {
 .experience {
   background: #f4f8fb;
   color: #222;
+  min-height: 600px; 
 }
 
 .experience h4 { text-align: left; }
