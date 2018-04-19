@@ -5,13 +5,16 @@ let userScroll = 0;
 
 function loaded() {
   getWindowHeight();
-  demo.init();
+
+  setTimeout(() => demo.init(), 1000);
 
   window.addEventListener('resize', demo.resize);
   window.addEventListener('scroll', getWindowHeight);
   window.addEventListener('resize', getWindowHeight);
 
   $('.burger').on('click', handleBurgerClick);
+  $('.side-menu li').on('click', scrollToSection);
+
 
   $('.quote-carousel').slick({
     dots: true,
@@ -25,6 +28,19 @@ function loaded() {
   });
 }
 
+function scrollToSection() {
+  const element = $(this).attr('id');
+
+    $('.burger').removeClass('open');
+    $('.side-menu').removeClass('show-side-menu');
+    $('.shader').removeClass('dim');
+    $('body').removeClass('disable-scroll');
+
+    $('html, body').animate({
+      scrollTop: ($(`.${element}`).offset().top)
+    }, 2000);
+}
+
 function handleBurgerClick() {
   $(this).toggleClass('open');
   $('.side-menu').toggleClass('show-side-menu');
@@ -34,7 +50,7 @@ function handleBurgerClick() {
 
 function getWindowHeight() {
   userScroll = $(window).scrollTop();
-  windowBottom = $(window).scrollTop() + $(window).height() - 50;
+  windowBottom = userScroll + $(window).height() - 50;
 
   animateNavbar();
   animateSection('portfolio');

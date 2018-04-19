@@ -162,12 +162,13 @@ nav ul li:first-child {
 .side-menu ul li {
   list-style: none;
   text-align: left;
-  font-size: 40px;
+  font-size: 30px;
   margin: 40px 0;
-  opacity: .5;
-  font-weight: 300;
+  opacity: .8;
+  font-weight: 600;
   transition: all 0.5s;
   cursor: pointer;
+  color: #fff;
 }
 
 .side-menu ul li:hover { opacity: 1; }
@@ -204,6 +205,29 @@ nav ul li:first-child {
 
 .landing div {
   margin-top: -50px;
+  width: 60%;
+  position: relative;
+}
+
+.landing div img {
+  width: 90px;
+  border: 2px solid rgba(116, 144, 174, 0.4);
+  border-radius: 100%;
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.landing div p {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  margin: 0;
+}
+
+.landing div p span {
+  font-weight: 500;
+  font-size: 35px;
 }
 
 .landing .fa-sort-down {
@@ -290,8 +314,12 @@ nav ul li:first-child {
 }
 
 .left img { 
-  float: left; 
-  margin-right: 10px;
+  float: left;
+  margin-right: 10px; 
+}
+
+.left article article{
+  padding-left: 20px;
 }
 
 .right { 
@@ -304,7 +332,11 @@ nav ul li:first-child {
 
 .right img { 
   float: right;
-  margin-left: 10px;
+  margin-left: 10px; 
+}
+
+.right article article{
+  padding-right: 20px;
 }
 
 /* ---- QUOTES ---- */
@@ -319,58 +351,49 @@ nav ul li:first-child {
 .quotes p {
   font-size: 20px;
   font-weight: 500;
-  padding-bottom: 60px;
+  text-align: justify;
 }
 
 .quotes a {
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 2px;
   color: #066BD4;
   text-decoration: none;
 }
 
-.quotes span {
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  color: #666;
+.quotes .author {
+  float: right;
+  text-align: left;
+  margin-right: 5px;
+  padding-bottom: 15px;
 }
 
-.quotes .author {
-  position: absolute;
-  right: 20px;
-  bottom: 0;
-  text-align: left;
-  line-height: 60px;
+.quotes .author a {
+  position: relative;
+  top: 10px;
+}
+
+.quotes .author span {
+  position: relative;
+  top: 10px;
+  font-style: italic;
+  color: #666;
+  font-weight: 300;
 }
 
 .quotes img {
   float: left;
-  width: 60px;
+  width: 40px;
   border-radius: 100%;
   border: 2px solid #f1f1f1;
   margin-right: 5px;
 }
 
-.quotes .quote {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.quotes p span {
-  font-size: 40px;
-  font-weight: 600;
-  margin: 2px;
-  color: #066BD4;
-}
-
 .quote-carousel {
   margin: 0 auto;
-  width: 80%;
+  width: 40%;
   background: #fff;
   border: 4px solid #D6E2EC;
   border-radius: 3px;
@@ -381,7 +404,6 @@ nav ul li:first-child {
 .slick-dots {
   position: static;
   opacity: .5;
-  padding: 15px 0;
 }
 
 /* ---- EXPERIENCE ---- */
@@ -391,3 +413,32 @@ nav ul li:first-child {
 }
 
 .experience h4 { text-align: left; }
+
+.experience span {
+  color: #066BD4;
+  font-weight: 700;
+}
+
+.experience article article {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* ---- Contact ---- */
+.contact {
+  background: #D6E2EC;
+  height: 300px;
+}
+
+.contact p {
+  font-size: 20px;
+  font-size: 400;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #066BD4;
+  font-size: 26px;
+  font-weight: 600;
+}
