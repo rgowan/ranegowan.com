@@ -4,17 +4,14 @@ let windowBottom;
 let userScroll = 0;
 
 function loaded() {
-  getWindowHeight();
-
-  setTimeout(() => demo.init(), 1000);
+  setTimeout(() => demo.init(), 1500);
 
   window.addEventListener('resize', demo.resize);
   window.addEventListener('scroll', getWindowHeight);
   window.addEventListener('resize', getWindowHeight);
 
   $('.burger').on('click', handleBurgerClick);
-  $('.side-menu li').on('click', scrollToSection);
-
+  $('.side-menu li, button').on('click', scrollToSection);
 
   $('.quote-carousel').slick({
     dots: true,
@@ -50,7 +47,7 @@ function handleBurgerClick() {
 
 function getWindowHeight() {
   userScroll = $(window).scrollTop();
-  windowBottom = userScroll + $(window).height() - 50;
+  windowBottom = userScroll + $(window).height() - 100;
 
   animateNavbar();
   animateSection('portfolio');
