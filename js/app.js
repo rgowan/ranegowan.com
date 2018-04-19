@@ -11,7 +11,7 @@ function loaded() {
   window.addEventListener('resize', getWindowHeight);
 
   $('.burger').on('click', handleBurgerClick);
-  $('.side-menu li, button').on('click', scrollToSection);
+  $('.side-menu li, .fa-sort-down').on('click', scrollToSection);
 
   $('.quote-carousel').slick({
     dots: true,
