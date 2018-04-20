@@ -47,7 +47,7 @@ function handleBurgerClick() {
 
 function getWindowHeight() {
   userScroll = $(window).scrollTop();
-  windowBottom = userScroll + $(window).height() - 100;
+  windowBottom = userScroll + $(window).height() - 50;
 
   animateNavbar();
   animateSection('portfolio');
