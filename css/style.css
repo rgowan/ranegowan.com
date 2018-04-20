@@ -267,7 +267,9 @@ nav ul li:first-child {
 .landing .fa-sort-down:hover { opacity: .8; }
 
 /* --- SKILLS --- */
-.skills { background: #fff; }
+.skills { 
+  background: #fff; 
+}
 
 .skills div {
   margin: 0 auto;
@@ -438,7 +440,7 @@ nav ul li:first-child {
 .experience {
   background: #f4f8fb;
   color: #222;
-  min-height: 600px; 
+  min-height: 600px;
 }
 
 .experience h4 { text-align: left; }
@@ -456,7 +458,7 @@ nav ul li:first-child {
 
 /* ---- Contact ---- */
 .contact {
-  background: #D6E2EC;
+  background: #fff;
   height: 300px;
 }
 

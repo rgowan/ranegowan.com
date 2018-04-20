@@ -4,7 +4,7 @@ let windowBottom;
 let userScroll = 0;
 
 function loaded() {
-  setTimeout(() => demo.init(), 1500);
+  setTimeout(() => demo.init(), 1000);
 
   window.addEventListener('resize', demo.resize);
   window.addEventListener('scroll', getWindowHeight);
