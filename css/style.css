@@ -13,6 +13,8 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+
+  overflow-x: hidden;
 }
 
 a {
@@ -69,16 +71,8 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-hr.thick {
-  margin-top: 0;
-  border: 0;
-  height: 0;
-  border-top: 4px solid #222;
-  width: 50px;
-}
-
 .fa-umbrella {
-  font-size: 80px;
+  font-size: 100px;
   color: rgba(250, 250, 250, 0.1);
 }
 
@@ -187,7 +181,8 @@ nav ul li:first-child {
 /* --- SHADER --- */
 .shader {
   position: fixed;
-  z-index: -1;
+  z-index: 2;
+  visibility: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -198,8 +193,8 @@ nav ul li:first-child {
 }
 
 .dim {
-  z-index: 3;
   opacity: .6;
+  visibility: visible;
 }
 
 /* --- LANDING --- */
@@ -238,8 +233,8 @@ nav ul li:first-child {
 .landing div img {
   width: 120px;
   border: 3px solid rgba(116, 144, 174, 0.3);
-  border-radius: 3px 3px 0 0;
-  /* margin: 10px 0; */
+  border-radius: 100%;
+  margin: 10px;
 }
 
 .landing div p {
@@ -255,16 +250,27 @@ nav ul li:first-child {
   color: #fff;
 }
 
-.landing .fa-sort-down {
+.landing .arrow {
+  color: #fff;
   position: absolute;
-  opacity: .3;
   bottom: 50px;
-  font-size: 70px;
+  opacity: .5;
   transition: opacity 0.5s;
   cursor: pointer;
 }
 
-.landing .fa-sort-down:hover { opacity: .8; }
+.landing .arrow i {
+  font-size: 70px;
+}
+
+.landing .arrow p {
+  font-size: 18px;
+  margin-bottom: -30px;
+}
+
+.landing .arrow:hover {
+  opacity: .8;
+}
 
 /* --- SKILLS --- */
 .skills { 
@@ -345,7 +351,7 @@ nav ul li:first-child {
 
 .left img { 
   float: left;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .left article article{
@@ -372,19 +378,40 @@ nav ul li:first-child {
 /* ---- QUOTES ---- */
 .quotes { 
   background: #243B55;
+  padding: 50px 70px;
 }
 
 .quotes h2 {
   color: #fff;
 }
 
-.quotes p {
-  font-size: 20px;
-  font-weight: 500;
-  text-align: justify;
+.quote {
+  margin: 20px;
+  padding: 25px;
+  background: #fff;
+  border: 4px solid #D6E2EC;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
 }
 
-.quotes a {
+.quote p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.quotes .author {
+  float: right;
+  text-align: left;
+  margin-right: -5px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.quotes .author a {
+  position: relative;
+  top: 20px;
   text-align: left;
   font-size: 18px;
   font-weight: 600;
@@ -393,21 +420,9 @@ nav ul li:first-child {
   text-decoration: none;
 }
 
-.quotes .author {
-  float: right;
-  text-align: left;
-  margin-right: 5px;
-  padding-bottom: 15px;
-}
-
-.quotes .author a {
-  position: relative;
-  top: 10px;
-}
-
 .quotes .author span {
   position: relative;
-  top: 10px;
+  top: 20px;
   font-style: italic;
   color: #666;
   font-weight: 300;
@@ -415,25 +430,19 @@ nav ul li:first-child {
 
 .quotes img {
   float: left;
-  width: 40px;
+  width: 60px;
   border-radius: 100%;
   border: 2px solid #f1f1f1;
   margin-right: 5px;
 }
 
-.quote-carousel {
-  margin: 0 auto;
-  width: 60%;
-  background: #fff;
-  border: 4px solid #D6E2EC;
-  border-radius: 3px;
-  padding: 25px;
-  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+.slick-dots li button::before {
+  font-size: 14px;
+  color: #ccc;
 }
 
-.slick-dots {
-  position: static;
-  opacity: .5;
+.slick-dots li.slick-active button:before {
+  color: #fff;
 }
 
 /* ---- EXPERIENCE ---- */
@@ -473,4 +482,38 @@ nav ul li:first-child {
   color: #066BD4;
   font-size: 26px;
   font-weight: 700;
+}
+
+/* ---- Footer ---- */
+footer {
+  width: 100%;
+  height: 250px;
+  background: #243B55;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer div i {
+  margin: 20px;
+}
+
+footer ul li {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: .6;
+  display: inline-block;
+  margin: 10px 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+footer ul li:hover {
+  opacity: 1;
 }

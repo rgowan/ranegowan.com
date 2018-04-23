@@ -20,7 +20,7 @@ function loaded() {
     autoplay: false,
     autoplaySpeed: 10000,
     speed: 500,
-    fade: true,
+    fade: false,
     cssEase: 'linear'
   });
 }
@@ -47,7 +47,7 @@ function handleBurgerClick() {
 
 function getWindowHeight() {
   userScroll = $(window).scrollTop();
-  windowBottom = userScroll + $(window).height() - 50;
+  windowBottom = userScroll + $(window).height();
 
   animateNavbar();
   animateSection('portfolio');
@@ -72,5 +72,7 @@ function animateSection(element) {
     $(`.${element} .right`)
       .removeClass('hidden')
       .addClass('animated fadeInRight');
+
+    $(`.${element} hr`).removeClass('hidden');
   }
 }
