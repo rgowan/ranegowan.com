@@ -11,7 +11,7 @@ function loaded() {
   window.addEventListener('resize', getWindowHeight);
 
   $('.burger').on('click', handleBurgerClick);
-  $('.side-menu li, .fa-sort-down').on('click', scrollToSection);
+  $('#nav li, .fa-sort-down').on('click', scrollToSection);
 
   $('.quote-carousel').slick({
     dots: true,
@@ -28,14 +28,14 @@ function loaded() {
 function scrollToSection() {
   const element = $(this).attr('id');
 
-    $('.burger').removeClass('open');
-    $('.side-menu').removeClass('show-side-menu');
-    $('.shader').removeClass('dim');
-    $('body').removeClass('disable-scroll');
+  $('.burger').removeClass('open');
+  $('.side-menu').removeClass('show-side-menu');
+  $('.shader').removeClass('dim');
+  $('body').removeClass('disable-scroll');
 
-    $('html, body').animate({
-      scrollTop: ($(`.${element}`).offset().top)
-    }, 2000);
+  $('html, body').animate({
+    scrollTop: ($(`.${element}`).offset().top)
+  }, 2000);
 }
 
 function handleBurgerClick() {
