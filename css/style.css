@@ -602,6 +602,7 @@ footer ul li:hover {
   }
 
   .landing div {
+    margin-top: -200px;
     max-width: 220px;
   }
 
@@ -640,7 +641,6 @@ footer ul li:hover {
 
   .tile img {
     margin-right: 0;
-    width: 200px;
   }
 
   .tile h3 {
@@ -649,6 +649,10 @@ footer ul li:hover {
 
   .tile .banner {
     margin-top: -5px;
+  }
+
+  .tile .summary {
+    font-size: 16px;
   }
 
   .left { 
@@ -668,20 +672,38 @@ footer ul li:hover {
   }
 
   .quotes {
+    padding: 30px !important;
+  }
+
+  .quote {
+    padding: 0;
+  }
+
+  .quote p {
+    padding: 10px;
+  }
+
+  .quotes {
     padding: 50px;
   }
 
   .quotes .author {
-    padding-bottom: 30px;
+    padding: 0 10px;
+    padding-bottom: 25px;
   }
 
   .quotes .author span {
+    display: block;
     font-size: 12px;
   }
   
   .quote p {
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .slick-dots li button::before {
+    font-size: 8px;
   }
 
   .experience h4 {
