@@ -356,6 +356,7 @@ nav ul li:first-child {
 
 .left article article{
   padding-left: 20px;
+  text-align: left;
 }
 
 .right { 
@@ -373,6 +374,7 @@ nav ul li:first-child {
 
 .right article article{
   padding-right: 20px;
+  text-align: right;
 }
 
 /* ---- QUOTES ---- */
@@ -460,7 +462,6 @@ nav ul li:first-child {
 }
 
 .experience article article {
-  text-align: justify;
   font-size: 18px;
   line-height: 25px;
 }
