@@ -8,7 +8,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   color: #222;
   padding: 0;
   margin: 0;
@@ -273,8 +273,8 @@ nav ul li:first-child {
 }
 
 /* --- SKILLS --- */
-.skills { 
-  background: #fff; 
+.skills {
+  background: #fff;
 }
 
 .skills div {
@@ -288,9 +288,9 @@ nav ul li:first-child {
 }
 
 /* ---- PORTFOLIO ---- */
-.portfolio { 
+.portfolio {
   background: #f4f8fb;
-  min-height: 600px; 
+  min-height: 600px;
 }
 .portfolio h4 { text-align: left; }
 
@@ -341,7 +341,7 @@ nav ul li:first-child {
   margin-right: 5px;
 }
 
-.left { 
+.left {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   -webkit-animation-duration: 1s;
@@ -349,7 +349,7 @@ nav ul li:first-child {
   text-align: left;
 }
 
-.left img { 
+.left img {
   float: left;
   margin-right: 10px;
 }
@@ -359,17 +359,17 @@ nav ul li:first-child {
   text-align: left;
 }
 
-.right { 
+.right {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  text-align: right; 
+  text-align: right;
 }
 
-.right img { 
+.right img {
   float: right;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .right article article{
@@ -378,7 +378,7 @@ nav ul li:first-child {
 }
 
 /* ---- QUOTES ---- */
-.quotes { 
+.quotes {
   background: #243B55;
   padding: 50px 70px;
 }
@@ -619,7 +619,7 @@ footer ul li:hover {
   .landing div p span {
     font-size: 26px;
   }
-  
+
   .landing .arrow p {
     font-size: 16px;
   }
@@ -657,20 +657,30 @@ footer ul li:hover {
     font-size: 16px;
   }
 
-  .left { 
+  .left {
     text-align: center;
   }
-  
-  .left img { 
+
+  .left img {
     float: none;
   }
 
-  .right { 
+  .left article article{
+    padding-left: 0px;
+    text-align: justify;
+  }
+
+  .right {
     text-align: center;
   }
-  
-  .right img { 
+
+  .right img {
     float: none;
+  }
+
+  .right article article{
+    padding-right: 0px;
+    text-align: justify;
   }
 
   .quotes {
@@ -698,7 +708,7 @@ footer ul li:hover {
     display: block;
     font-size: 12px;
   }
-  
+
   .quote p {
     font-size: 16px;
     line-height: 20px;
