@@ -50,7 +50,7 @@ demo.resize = function() {
   }
   // resize
   demo.width = window.innerWidth;
-  demo.height = $('.landing').innerHeight();
+  demo.height = $('main').innerHeight();
 
   demo.canvas.width = demo.width * demo.dpr;
   demo.canvas.height = demo.height * demo.dpr;
