@@ -1,5 +1,5 @@
 var demo = {
-  speed: 0.95,
+  speed: 0.5,
   color: {
     r: "80",
     g: "175",
@@ -14,7 +14,7 @@ var demo = {
   dpr: window.devicePixelRatio || 1,
   drop_time: 0,
   drop_delay: 20,
-  wind: 2,
+  wind: 10,
   rain_color: null,
   rain_color_clear: null,
   rain: [],

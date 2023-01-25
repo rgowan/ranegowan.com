@@ -7,7 +7,6 @@ function loaded() {
 
   $(".recomendations-wrapper").slick({
     dots: true,
-    centerMode: true,
     arrows: false,
   });
 }

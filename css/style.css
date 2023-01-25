@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 canvas {
@@ -18,7 +19,7 @@ canvas {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 h1,
@@ -61,14 +62,20 @@ nav li {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   display: inline;
+  opacity: 0.6;
+  color: #333;
+  font-size: 16px;
 }
 
 nav li:hover {
   text-decoration: underline;
+  opacity: 1;
 }
 
-nav li img {
-  width: 40px;
+nav li i {
+  font-size: 30px;
+  color: #333;
+  opacity: 1;
 }
 
 section {
@@ -90,6 +97,7 @@ section {
   padding: 0;
   font-size: 80px;
   letter-spacing: -2px;
+  color: #333;
 }
 
 .home h2 {
@@ -114,7 +122,7 @@ section {
 
 .home a {
   font-size: 20px;
-  color: #000;
+  color: #333;
   font-weight: 500;
 }
 
@@ -130,16 +138,17 @@ button {
   padding: 15px 25px;
   border: 1px solid #333;
   border-radius: 2px;
-}
-
-button:hover {
+  color: #333;
   opacity: 0.6;
 }
 
-.image {
-  background: blue;
-  width: 100px;
-  height: 100px;
+button:hover {
+  opacity: 1;
+}
+
+.section-content {
+  padding: 10px;
+  background: #fff;
 }
 
 .about img {
@@ -162,7 +171,7 @@ button:hover {
 }
 
 .section-header p {
-  /* opacity: 0.4; */
+  opacity: 0.4;
   font-size: 16px;
   color: #333;
   font-weight: 300;
@@ -261,7 +270,7 @@ button:hover {
 
 .recomendation {
   margin: 60px;
-  background: #f2f2f2;
+  background: #fff;
   padding: 50px;
   border-radius: 2px;
 }
@@ -303,4 +312,53 @@ footer {
 footer .links {
   margin-top: 0;
   color: white;
+}
+
+.floating-links {
+  position: fixed;
+  right: 38px;
+  bottom: 10px;
+}
+
+.floating-links ul {
+  list-style-type: none;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+.floating-links ul li {
+  margin: 20px 0;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.floating-links ul li:hover {
+  opacity: 1;
+}
+
+.floating-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.floating-email {
+  position: fixed;
+  left: -72px;
+  bottom: 140px;
+  transform: rotate(-90deg);
+  font-family: "Space Mono", monospace;
+}
+
+.floating-email a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.floating-email a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
