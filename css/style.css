@@ -58,7 +58,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 15px;
+  margin: 0 10px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   display: inline;
@@ -135,7 +135,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   background: none;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border: 1px solid #333;
   border-radius: 2px;
   color: #333;
@@ -269,10 +269,27 @@ button:hover {
 }
 
 .recomendation {
-  margin: 60px;
-  background: #fff;
-  padding: 50px;
+  margin: 0 50px;
+  padding: 20px;
   border-radius: 2px;
+}
+
+.recomendation img {
+  width: 125px;
+  z-index: 200;
+  position: relative;
+  border-radius: 2px;
+}
+
+.recomendation .picture div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 125px;
+  height: 125px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  z-index: 1;
 }
 
 .recomendation h3 {
@@ -288,7 +305,7 @@ button:hover {
 }
 
 .recomendation p {
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 18px;
   line-height: 35px;
   font-weight: 400;
@@ -299,19 +316,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-footer {
-  background-color: #333;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer .links {
-  margin-top: 0;
-  color: white;
 }
 
 .floating-links {
