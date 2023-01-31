@@ -91,6 +91,10 @@ section {
   align-items: center;
 }
 
+.home div {
+  padding: 20px;
+}
+
 .home h1 {
   font-weight: 900;
   margin: 0;
@@ -147,7 +151,7 @@ button:hover {
 }
 
 .section-content {
-  padding: 10px;
+  padding: 20px;
   background: #fff;
 }
 
@@ -185,7 +189,7 @@ button:hover {
 
 .text-container a {
   font-weight: 900;
-  color: #000;
+  color: #333;
 }
 
 .text-container b {
@@ -278,24 +282,23 @@ button:hover {
 }
 
 .recomendation {
-  margin: 0 50px;
-  padding: 20px;
-  border-radius: 2px;
+  margin: 0 20px;
 }
 
 .recomendation img {
-  width: 125px;
+  width: 80px;
   z-index: 200;
   position: relative;
   border-radius: 2px;
+  margin-right: 10px;
 }
 
 .recomendation .picture div {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 125px;
-  height: 125px;
+  width: 80px;
+  height: 80px;
   border: 1px solid #333;
   border-radius: 2px;
   z-index: 1;
@@ -314,11 +317,9 @@ button:hover {
 }
 
 .recomendation p {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 18px;
   line-height: 40px;
-  font-weight: 400;
-  margin-bottom: 20px;
 }
 
 .recomendation-header {
