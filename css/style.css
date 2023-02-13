@@ -45,9 +45,9 @@ nav {
   width: 100%;
   padding: 10px;
   transition: top 0.5s;
-  /* background-color: #fff; */
+  background-color: #fff;
   z-index: 999;
-  /* border-bottom: 1px solid #f2f2f2; */
+  border-bottom: 1px solid #f2f2f2;
 }
 
 ul {
@@ -151,6 +151,7 @@ button:hover {
 
 .picture {
   position: relative;
+  margin-left: 10px;
 }
 
 .picture img {
@@ -174,6 +175,7 @@ button:hover {
 
 .about .content {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
 }
 
@@ -215,6 +217,14 @@ button:hover {
 
 .recomendation {
   margin: 0 40px;
+}
+
+.recomendations .section-header {
+  padding: 0 40px;
+}
+
+.recomendations div {
+  background: #fff;
 }
 
 .recomendation img {
@@ -309,4 +319,117 @@ button:hover {
 .floating-email a:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+footer {
+  display: none;
+}
+
+footer .link {
+  margin-bottom: 20px;
+}
+
+footer .link a {
+  font-size: 18px;
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+}
+
+footer ul {
+  display: flex;
+  font-size: 24px;
+  list-style-type: none;
+  color: #f2f2f2;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .floating-links {
+    display: none;
+  }
+
+  .floating-email {
+    display: none;
+  }
+
+  .text-container {
+    margin-right: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .home div {
+    padding: 25px;
+  }
+
+  .about {
+    margin-bottom: 100px;
+  }
+
+  .section-content {
+    padding: 25px;
+  }
+  .about .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .picture {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+
+  .recomendations {
+    padding: 5px;
+    height: auto;
+  }
+
+  .recomendation {
+    margin: 15px;
+  }
+
+  .recomendation h3 {
+    font-size: 18px;
+  }
+
+  .recomendation span {
+    font-size: 16px;
+  }
+
+  .recomendation .picture {
+    padding-left: 1px;
+  }
+
+  .recomendation p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .recomendations .section-header {
+    padding: 0 25px;
+  }
+
+  .recomendations {
+    margin-bottom: 100px;
+  }
 }
