@@ -56,30 +56,42 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav id="navbar">
+    <canvas id="canvas"></canvas>
+    <nav>
       <ul>
         <div>
           <li><i class="fa-solid fa-umbrella"></i></li>
         </div>
         <div>
-          <li>about.</li>
-          <li>recomendations.</li>
-          <li><button>CV</button></li>
+          <li id="about">about.</li>
+          <li id="recomendations">recomendations.</li>
+          <!-- <li><button>CV</button></li> -->
         </div>
       </ul>
     </nav>
     <main>
       <section class="home">
         <div>
-          <span>Hey, my name is</span>
-          <h1>Rane Gowan.</h1>
-          <h2>I am a senior software engineer</h2>
-          <p>
+          <span class="animate__animated animate__fadeIn animate__delay-1s"
+            >Hey, my name is</span
+          >
+          <h1 class="animate__animated animate__fadeIn animate__delay-2s">
+            Rane Gowan.
+          </h1>
+          <h2 class="animate__animated animate__fadeIn animate__delay-3s">
+            I am a senior software engineer
+          </h2>
+          <p class="animate__animated animate__fadeIn animate__delay-4s">
             currently working as a consulatant at
             <a href="https://red-badger.com/" target="_blank">Red Badger</a>,
             helping companies innovate and deliver digital transformation.
           </p>
-          <button>Find out more!</button>
+          <button
+            class="animate__animated animate__fadeIn animate__delay-4s"
+            id="more"
+          >
+            Find out more!
+          </button>
         </div>
       </section>
 
@@ -112,7 +124,7 @@
                 a variety of languages, frameworks and processes.
               </p>
 
-              <p>Check out my <a href="#">CV</a> for more details.</p>
+              <!-- <p>Check out my <a href="#">CV</a> for more details.</p> -->
 
               <p>
                 In my spare time, you'll catch me running along the Thames, at
@@ -290,6 +302,5 @@
     <div class="floating-email">
       <a href="mailto:ranegowan@gmail.com">ranegowan@gmail.com</a>
     </div>
-    <canvas id="canvas"></canvas>
   </body>
 </html>

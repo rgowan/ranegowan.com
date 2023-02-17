@@ -9,13 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #fff;
 }
 
 canvas {
   position: absolute;
-  z-index: -1;
   width: 100%;
   top: 0;
   left: 0;
@@ -43,11 +42,10 @@ main {
 nav {
   position: fixed;
   width: 100%;
+  top: -60px;
   padding: 10px;
   transition: top 0.5s;
-  background-color: #fff;
   z-index: 999;
-  border-bottom: 1px solid #f2f2f2;
 }
 
 ul {
@@ -79,9 +77,9 @@ nav li i {
   opacity: 1;
 }
 
-section {
-  width: 100%;
-  height: 100vh;
+.about,
+.recomendations {
+  margin: 250px 0;
 }
 
 .home {
@@ -90,6 +88,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .home div {
@@ -102,14 +102,16 @@ section {
   padding: 0;
   font-size: 60px;
   letter-spacing: -2px;
+  margin-left: -2px;
 }
 
 .home h2 {
   margin: 0;
   padding: 0;
   font-size: 40px;
-  opacity: 0.4;
+  color: #999;
   letter-spacing: -1px;
+  margin-left: -2px;
 }
 
 .home span {
@@ -119,6 +121,7 @@ section {
 }
 
 .home p {
+  margin: 15px 0;
   font-size: 18px;
   line-height: 24px;
 }
@@ -273,9 +276,10 @@ button:hover {
 
 .floating-links {
   position: fixed;
-  right: 0px;
+  right: -60px;
   bottom: 10px;
   margin-right: 25px;
+  transition: right 0.5s;
 }
 
 .floating-links ul {
@@ -301,8 +305,9 @@ button:hover {
 
 .floating-email {
   position: fixed;
-  left: -72px;
-  bottom: 140px;
+  left: -132px;
+  bottom: 132px;
+  transition: left 0.5s;
   transform: rotate(-90deg);
 }
 
