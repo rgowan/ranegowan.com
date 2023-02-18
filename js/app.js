@@ -6,8 +6,6 @@ function loaded() {
   navBarEventListeners();
   const navElement = document.querySelector("nav");
 
-  let prevScrollpos = window.pageYOffset;
-
   $(".recomendations-wrapper").slick({
     dots: true,
     arrows: false,
@@ -31,9 +29,9 @@ function loaded() {
         navElement.style.border = "none";
       }
 
-      navElement.style.top = prevScrollpos > currentScrollPos ? "0" : "-93px";
+      // navElement.style.top = prevScrollpos > currentScrollPos ? "0" : "-93px";
 
-      prevScrollpos = currentScrollPos;
+      // prevScrollpos = currentScrollPos;
     };
   }, 4000);
 }
@@ -45,6 +43,10 @@ function scrollIntoViewCallback(element) {
 }
 
 function navBarEventListeners() {
+  document
+    .getElementById("umbrella")
+    .addEventListener("click", () => scrollIntoViewCallback(".home"));
+
   document
     .getElementById("about")
     .addEventListener("click", () => scrollIntoViewCallback(".about"));
